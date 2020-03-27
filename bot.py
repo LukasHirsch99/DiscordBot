@@ -112,7 +112,7 @@ async def testChannels(ctx):
 @client.command()
 async def stop(ctx):
     await ctx.send("Bot is going to sleep")
-    print("Bot shuttingdown")
+    print("Bot is shuttingdown")
     await client.close()
 
 @client.command()
